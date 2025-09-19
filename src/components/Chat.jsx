@@ -25,12 +25,10 @@ export default function Chat() {
 
 
       <section className="chat-messages">
-        {[].map((m, i) => (
-          <div key={i} className={`message ${m.from}`}>
-            <p>{m.text}</p>
-            <span className="time">{m.time}</span>
-          </div>
-        ))}
+        <div className="message">
+          <p></p>
+          <span className="time"></span>
+        </div>
       </section>
 
       <footer className="chat-footer">
